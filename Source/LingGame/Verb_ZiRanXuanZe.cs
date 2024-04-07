@@ -55,7 +55,7 @@ public class Verb_ZiRanXuanZe : Verb
         foreach (var cell in new CellRect(currentTarget.Cell.x - 3, currentTarget.Cell.z - 3, 7, 7).Cells)
         {
             GenSpawn.Spawn(ThingDefOf.Filth_Fuel, cell, caster.Map);
-            FireUtility.TryStartFireIn(cell, caster.Map, 2f);
+            FireUtility.TryStartFireIn(cell, caster.Map, 2f, caster);
         }
 
         return true;

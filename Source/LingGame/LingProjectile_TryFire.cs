@@ -10,7 +10,7 @@ public class LingProjectile_TryFire : Projectile_Explosive
         if (!Position.InHorDistOf(launcher.Position, 1f))
         {
             GenSpawn.Spawn(ThingDefOf.Filth_Fuel, Position, Map);
-            FireUtility.TryStartFireIn(Position, Map, 1f);
+            FireUtility.TryStartFireIn(Position, Map, 1f, launcher);
         }
 
         base.Tick();

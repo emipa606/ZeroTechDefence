@@ -45,42 +45,36 @@ public class LingBuildingZiRanXuanZe : Building_TurretGun
         var inspectString = base.GetInspectString();
         return FangShi switch
         {
-            0 => string.Concat(new string[]
-            {
+            0 => string.Concat([
                 inspectString,
                 "\n",
                 "LingNewAttackType".Translate() + FangShi0 + ""
-            }),
-            1 => string.Concat(new string[]
-            {
+            ]),
+            1 => string.Concat([
                 inspectString,
                 "\n",
                 "LingNewAttackType".Translate() + FangShi1 + ""
-            }),
-            2 => string.Concat(new string[]
-            {
+            ]),
+            2 => string.Concat([
                 inspectString,
                 "\n",
                 "LingNewAttackType".Translate() + FangShi2 + ""
-            }),
-            3 => string.Concat(new string[]
-            {
+            ]),
+            3 => string.Concat([
                 inspectString,
                 "\n",
                 "LingNewAttackType".Translate() + FangShi3 + ""
-            }),
-            4 => string.Concat(new string[]
-            {
+            ]),
+            4 => string.Concat([
                 inspectString,
                 "\n",
                 "LingNewAttackType".Translate() + FangShi4 + ""
-            }),
-            _ => string.Concat(new string[]
-            {
+            ]),
+            _ => string.Concat([
                 inspectString,
                 "\n",
                 "LingNewAttackType".Translate() + "unknow"
-            })
+            ])
         };
     }
 }

@@ -11,12 +11,7 @@ public class Verb_LaunchListProjectile : Verb_Shoot
         get
         {
             var thingDef = caster.TryGetComp<Comp_LaunchListProjectile>().Props.ProjectileDef[asdasd];
-            if (thingDef != null)
-            {
-                return thingDef;
-            }
-
-            return base.Projectile;
+            return thingDef ?? base.Projectile;
         }
     }
 
