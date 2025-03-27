@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<TabulaRasa.UpdateDef Abstract="true" Name="ZeroTechDefence_UpdateInfoBase">
+		<linkUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2609650970</linkUrl>
+		<banner>UpdateInfo/ZeroTechDefence</banner>
+	</TabulaRasa.UpdateDef>
+	<TabulaRasa.UpdateDef ParentName="ZeroTechDefence_UpdateInfoBase">
+		<defName>ZeroTechDefence_1_5_0</defName>
+		<date>2025/3/27</date>
+		<content>This mod will not be further updated, please use ZeroTech-Defence by LingLuo instead.</content>
+	</TabulaRasa.UpdateDef>
+</Defs>
+

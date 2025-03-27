@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<HugsLib.UpdateFeatureDef Abstract="true" Name="ZeroTechDefence_UpdateFeatureBase">
+		<modNameReadable>ZeroTechDefence</modNameReadable>
+		<linkUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2609650970</linkUrl>
+	</HugsLib.UpdateFeatureDef>
+	<HugsLib.UpdateFeatureDef ParentName="ZeroTechDefence_UpdateFeatureBase">
+		<defName>ZeroTechDefence_1_5_0</defName>
+		<assemblyVersion>1.5.0</assemblyVersion>
+		<content>This mod will not be further updated, please use ZeroTech-Defence by LingLuo instead.</content>
+	</HugsLib.UpdateFeatureDef>
+</Defs>
+
